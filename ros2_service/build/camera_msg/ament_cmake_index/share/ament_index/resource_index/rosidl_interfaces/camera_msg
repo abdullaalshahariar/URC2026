@@ -1,0 +1,4 @@
+msg/CameraInfo.idl
+msg/CameraInfo.msg
+srv/CameraStatus.idl
+srv/CameraStatus.srv

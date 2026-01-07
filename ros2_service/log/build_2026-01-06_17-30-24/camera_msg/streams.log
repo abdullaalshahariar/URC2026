@@ -1,0 +1,216 @@
+[0.010s] Invoking command in '/home/ubuntu/URC_2026/ros2_service/build/camera_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/URC_2026/ros2_service/camera_msg -DCMAKE_INSTALL_PREFIX=/home/ubuntu/URC_2026/ros2_service/install/camera_msg
+[0.028s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.310s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.313s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.359s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.392s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.394s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.235s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.833s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.624s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.647s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.836s] -- Found PythonExtra: /usr/bin/python3  
+[3.433s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.500s] -- Added test 'lint_cmake' to check CMake code style
+[3.502s] -- Added test 'xmllint' to check XML markup files
+[3.510s] -- Configuring done (3.5s)
+[3.547s] -- Generating done (0.0s)
+[3.558s] -- Build files have been written to: /home/ubuntu/URC_2026/ros2_service/build/camera_msg
+[3.566s] Invoked command in '/home/ubuntu/URC_2026/ros2_service/build/camera_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ubuntu/URC_2026/ros2_service/camera_msg -DCMAKE_INSTALL_PREFIX=/home/ubuntu/URC_2026/ros2_service/install/camera_msg
+[3.568s] Invoking command in '/home/ubuntu/URC_2026/ros2_service/build/camera_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/URC_2026/ros2_service/build/camera_msg -- -j16 -l16
+[3.633s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.648s] [  2%] Built target ament_cmake_python_copy_camera_msg
+[3.863s] [  2%] Built target camera_msg__rosidl_generator_type_description
+[3.874s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.887s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.906s] running egg_info
+[3.907s] creating camera_msg.egg-info
+[3.927s] writing camera_msg.egg-info/PKG-INFO
+[3.927s] writing dependency_links to camera_msg.egg-info/dependency_links.txt
+[3.927s] writing top-level names to camera_msg.egg-info/top_level.txt
+[3.927s] writing manifest file 'camera_msg.egg-info/SOURCES.txt'
+[3.987s] reading manifest file 'camera_msg.egg-info/SOURCES.txt'
+[3.988s] writing manifest file 'camera_msg.egg-info/SOURCES.txt'
+[4.021s] [  8%] Built target ament_cmake_python_build_camera_msg_egg
+[4.144s] [  8%] Built target camera_msg__cpp
+[4.160s] [ 11%] [32mBuilding C object CMakeFiles/camera_msg__rosidl_generator_c.dir/rosidl_generator_c/camera_msg/msg/detail/camera_info__functions.c.o[0m
+[4.163s] [ 14%] [32mBuilding C object CMakeFiles/camera_msg__rosidl_generator_c.dir/rosidl_generator_c/camera_msg/msg/detail/camera_info__description.c.o[0m
+[4.164s] [ 17%] [32mBuilding C object CMakeFiles/camera_msg__rosidl_generator_c.dir/rosidl_generator_c/camera_msg/msg/detail/camera_info__type_support.c.o[0m
+[4.248s] [ 20%] [32m[1mLinking C shared library libcamera_msg__rosidl_generator_c.so[0m
+[4.300s] [ 20%] Built target camera_msg__rosidl_generator_c
+[4.312s] [ 23%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.313s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.313s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.314s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.315s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.315s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.598s] [ 41%] [32mBuilding CXX object CMakeFiles/camera_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/camera_msg/msg/detail/camera_info__type_support.cpp.o[0m
+[4.613s] [ 44%] [32mBuilding CXX object CMakeFiles/camera_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/camera_msg/msg/detail/camera_info__type_support_c.cpp.o[0m
+[4.617s] [ 47%] [32mBuilding C object CMakeFiles/camera_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/camera_msg/msg/detail/camera_info__type_support.c.o[0m
+[4.638s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/camera_msg/msg/camera_info__type_support.cpp.o[0m
+[4.668s] [ 52%] [32m[1mLinking C shared library libcamera_msg__rosidl_typesupport_introspection_c.so[0m
+[4.683s] [ 55%] [32mBuilding CXX object CMakeFiles/camera_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_msg/msg/detail/dds_fastrtps/camera_info__type_support.cpp.o[0m
+[4.704s] [ 58%] [32mBuilding CXX object CMakeFiles/camera_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/camera_msg/msg/camera_info__type_support.cpp.o[0m
+[4.707s] [ 58%] Built target camera_msg__rosidl_typesupport_introspection_c
+[4.755s] [ 61%] [32m[1mLinking CXX shared library libcamera_msg__rosidl_typesupport_c.so[0m
+[4.808s] [ 61%] Built target camera_msg__rosidl_typesupport_c
+[4.963s] [ 64%] [32m[1mLinking CXX shared library libcamera_msg__rosidl_typesupport_introspection_cpp.so[0m
+[4.990s] [ 67%] [32m[1mLinking CXX shared library libcamera_msg__rosidl_typesupport_cpp.so[0m
+[5.041s] [ 67%] Built target camera_msg__rosidl_typesupport_introspection_cpp
+[5.041s] [ 67%] Built target camera_msg__rosidl_typesupport_cpp
+[5.128s] [ 70%] [32m[1mLinking CXX shared library libcamera_msg__rosidl_typesupport_fastrtps_c.so[0m
+[5.179s] [ 73%] [32m[1mLinking CXX shared library libcamera_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.216s] [ 73%] Built target camera_msg__rosidl_typesupport_fastrtps_c
+[5.282s] [ 73%] Built target camera_msg__rosidl_typesupport_fastrtps_cpp
+[5.307s] [ 73%] Built target camera_msg
+[5.331s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.625s] [ 76%] Built target camera_msg__py
+[5.658s] [ 79%] [32mBuilding C object CMakeFiles/camera_msg__rosidl_generator_py.dir/rosidl_generator_py/camera_msg/msg/_camera_info_s.c.o[0m
+[5.838s] [ 82%] [32m[1mLinking C shared library libcamera_msg__rosidl_generator_py.so[0m
+[5.892s] [ 82%] Built target camera_msg__rosidl_generator_py
+[5.922s] [ 85%] [32mBuilding C object CMakeFiles/camera_msg_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/camera_msg/_camera_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.923s] [ 88%] [32mBuilding C object CMakeFiles/camera_msg_s__rosidl_typesupport_c.dir/rosidl_generator_py/camera_msg/_camera_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[5.924s] [ 91%] [32mBuilding C object CMakeFiles/camera_msg_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/camera_msg/_camera_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.045s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/camera_msg/camera_msg_s__rosidl_typesupport_c.so[0m
+[6.046s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/camera_msg/camera_msg_s__rosidl_typesupport_introspection_c.so[0m
+[6.048s] [100%] [32m[1mLinking C shared module rosidl_generator_py/camera_msg/camera_msg_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.084s] [100%] Built target camera_msg_s__rosidl_typesupport_introspection_c
+[6.085s] [100%] Built target camera_msg_s__rosidl_typesupport_c
+[6.088s] [100%] Built target camera_msg_s__rosidl_typesupport_fastrtps_c
+[6.105s] Invoked command in '/home/ubuntu/URC_2026/ros2_service/build/camera_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/URC_2026/ros2_service/build/camera_msg -- -j16 -l16
+[6.118s] Invoking command in '/home/ubuntu/URC_2026/ros2_service/build/camera_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/URC_2026/ros2_service/build/camera_msg
+[6.128s] -- Install configuration: ""
+[6.128s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/ament_index/resource_index/rosidl_interfaces/camera_msg
+[6.129s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/msg/CameraInfo.json
+[6.129s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg
+[6.129s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg
+[6.129s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/rosidl_generator_c__visibility_control.h
+[6.129s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail
+[6.130s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__description.c
+[6.130s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__type_support.c
+[6.130s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__type_support.h
+[6.130s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__struct.h
+[6.130s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__functions.c
+[6.130s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__functions.h
+[6.131s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/camera_info.h
+[6.131s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/environment/library_path.sh
+[6.131s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/environment/library_path.dsv
+[6.131s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_generator_c.so
+[6.131s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_generator_c.so" to ""
+[6.131s] -- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg
+[6.131s] -- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg
+[6.131s] -- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail
+[6.131s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__rosidl_typesupport_fastrtps_c.h
+[6.132s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.132s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_fastrtps_c.so
+[6.132s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[6.132s] -- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg
+[6.132s] -- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg
+[6.132s] -- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail
+[6.132s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__type_support.c
+[6.132s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__rosidl_typesupport_introspection_c.h
+[6.132s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.132s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_introspection_c.so
+[6.132s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_introspection_c.so" to ""
+[6.133s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_c.so
+[6.133s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_c.so" to ""
+[6.133s] -- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg
+[6.133s] -- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg
+[6.133s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/camera_info.hpp
+[6.133s] -- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail
+[6.133s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__traits.hpp
+[6.133s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__type_support.hpp
+[6.133s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__struct.hpp
+[6.133s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__builder.hpp
+[6.133s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.134s] -- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg
+[6.134s] -- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg
+[6.134s] -- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail
+[6.134s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/dds_fastrtps
+[6.134s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[6.134s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.134s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_fastrtps_cpp.so
+[6.134s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.134s] -- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg
+[6.134s] -- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg
+[6.134s] -- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail
+[6.134s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__rosidl_typesupport_introspection_cpp.hpp
+[6.134s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__type_support.cpp
+[6.135s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_introspection_cpp.so
+[6.135s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[6.135s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_cpp.so
+[6.135s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_cpp.so" to ""
+[6.135s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/environment/pythonpath.sh
+[6.135s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/environment/pythonpath.dsv
+[6.135s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg-0.0.0-py3.12.egg-info
+[6.135s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg-0.0.0-py3.12.egg-info/SOURCES.txt
+[6.135s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg-0.0.0-py3.12.egg-info/top_level.txt
+[6.135s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg-0.0.0-py3.12.egg-info/dependency_links.txt
+[6.135s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg-0.0.0-py3.12.egg-info/PKG-INFO
+[6.136s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg
+[6.136s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_fastrtps_c.so
+[6.136s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/_camera_msg_s.ep.rosidl_typesupport_introspection_c.c
+[6.136s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_c.so
+[6.136s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/__init__.py
+[6.136s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_introspection_c.so
+[6.136s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/_camera_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.136s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/_camera_msg_s.ep.rosidl_typesupport_c.c
+[6.136s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/msg
+[6.136s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/msg/_camera_info.py
+[6.136s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/msg/__init__.py
+[6.136s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/msg/_camera_info_s.c
+[6.192s] Listing '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg'...
+[6.192s] Compiling '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/__init__.py'...
+[6.192s] Listing '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/msg'...
+[6.192s] Compiling '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/msg/__init__.py'...
+[6.193s] Compiling '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/msg/_camera_info.py'...
+[6.199s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_fastrtps_c.so
+[6.199s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_fastrtps_c.so" to ""
+[6.200s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_introspection_c.so
+[6.200s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_introspection_c.so" to ""
+[6.200s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_c.so
+[6.200s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_c.so" to ""
+[6.200s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_generator_py.so
+[6.200s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_generator_py.so" to ""
+[6.201s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/msg/CameraInfo.idl
+[6.201s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/msg/CameraInfo.msg
+[6.201s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/ament_index/resource_index/package_run_dependencies/camera_msg
+[6.202s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/ament_index/resource_index/parent_prefix_path/camera_msg
+[6.202s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/environment/ament_prefix_path.sh
+[6.202s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/environment/ament_prefix_path.dsv
+[6.202s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/environment/path.sh
+[6.202s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/environment/path.dsv
+[6.202s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/local_setup.bash
+[6.202s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/local_setup.sh
+[6.202s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/local_setup.zsh
+[6.203s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/local_setup.dsv
+[6.203s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/package.dsv
+[6.203s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/ament_index/resource_index/packages/camera_msg
+[6.203s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_generator_cExport.cmake
+[6.203s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_generator_cExport-noconfig.cmake
+[6.203s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[6.203s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.203s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msg__rosidl_typesupport_introspection_cExport.cmake
+[6.203s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.203s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msg__rosidl_typesupport_cExport.cmake
+[6.203s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msg__rosidl_typesupport_cExport-noconfig.cmake
+[6.203s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_generator_cppExport.cmake
+[6.204s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.204s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.204s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msg__rosidl_typesupport_introspection_cppExport.cmake
+[6.204s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.204s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msg__rosidl_typesupport_cppExport.cmake
+[6.204s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[6.204s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_generator_pyExport.cmake
+[6.204s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_generator_pyExport-noconfig.cmake
+[6.204s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/rosidl_cmake-extras.cmake
+[6.204s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.204s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[6.204s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/ament_cmake_export_targets-extras.cmake
+[6.205s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.205s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.205s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.205s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msgConfig.cmake
+[6.205s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msgConfig-version.cmake
+[6.205s] -- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/package.xml
+[6.208s] Invoked command in '/home/ubuntu/URC_2026/ros2_service/build/camera_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/URC_2026/ros2_service/build/camera_msg

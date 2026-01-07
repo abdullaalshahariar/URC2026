@@ -1,0 +1,12 @@
+{
+  "package_name": "camera_msg",
+  "output_dir": "/home/ubuntu/URC_2026/ros2_service/build/camera_msg/rosidl_generator_type_description/camera_msg",
+  "idl_tuples": [
+    "/home/ubuntu/URC_2026/ros2_service/build/camera_msg/rosidl_adapter/camera_msg:msg/CameraInfo.idl",
+    "/home/ubuntu/URC_2026/ros2_service/build/camera_msg/rosidl_adapter/camera_msg:srv/CameraStatus.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from camera_msg/srv/CameraStatus.srv
+// generated code does not contain a copyright notice
+
+
+module camera_msg {
+  module srv {
+    struct CameraStatus_Request {
+      string command;
+
+      string camera_id;
+    };
+    struct CameraStatus_Response {
+      boolean is_active;
+
+      string status_message;
+    };
+  };
+};

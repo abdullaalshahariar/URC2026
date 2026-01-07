@@ -1,0 +1,6 @@
+string command
+string camera_id
+---
+bool is_active
+string status_message
+

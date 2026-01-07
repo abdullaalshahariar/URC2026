@@ -1,0 +1,362 @@
+[0.000000] (-) TimerEvent: {}
+[0.000637] (camera_msg) JobQueued: {'identifier': 'camera_msg', 'dependencies': OrderedDict()}
+[0.000964] (camera_msg) JobStarted: {'identifier': 'camera_msg'}
+[0.009225] (camera_msg) JobProgress: {'identifier': 'camera_msg', 'progress': 'cmake'}
+[0.009851] (camera_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/URC_2026/ros2_service/camera_msg', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/URC_2026/ros2_service/install/camera_msg'], 'cwd': '/home/ubuntu/URC_2026/ros2_service/build/camera_msg', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/ubuntu/URC_2026/ros2_service/camera_msg', 'TERM_PROGRAM_VERSION': '1.107.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2059', 'BUNDLED_DEBUGPY_PATH': '/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ubuntu/URC_2026/ros2_service/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2017,unix/ubuntu:/tmp/.ICE-unix/2017', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f2b60183_6b6d_48b2_9e61_9e32c3d92d05', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-4f59eef21ff1b2b8.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/ubuntu/.config/Code/User/workspaceStorage/5c45d6682de2d7ba1841ef9ef5b3d2ad/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-7efe9ee8ee.sock', 'GNOME_TERMINAL_SERVICE': ':1.119', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/URC_2026/ros2_service/install/camera_msg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/URC_2026/ros2_service/build/camera_msg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/URC_2026/ros2_service/install/camera_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.090372] (camera_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099827] (-) TimerEvent: {}
+[0.167229] (camera_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.189247] (camera_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199996] (-) TimerEvent: {}
+[0.300468] (-) TimerEvent: {}
+[0.308462] (camera_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.323934] (camera_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.324335] (camera_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.325158] (camera_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.340816] (camera_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400591] (-) TimerEvent: {}
+[0.476647] (camera_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.489556] (camera_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.490057] (camera_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.490851] (camera_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.493576] (camera_msg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.500813] (-) TimerEvent: {}
+[0.601216] (-) TimerEvent: {}
+[0.701778] (-) TimerEvent: {}
+[0.746239] (camera_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.802006] (-) TimerEvent: {}
+[0.870027] (camera_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.875227] (camera_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.902226] (-) TimerEvent: {}
+[0.933553] (camera_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.978619] (camera_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.981811] (camera_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.002432] (-) TimerEvent: {}
+[1.102785] (-) TimerEvent: {}
+[1.203152] (-) TimerEvent: {}
+[1.303541] (-) TimerEvent: {}
+[1.403848] (-) TimerEvent: {}
+[1.504233] (-) TimerEvent: {}
+[1.604631] (-) TimerEvent: {}
+[1.705013] (-) TimerEvent: {}
+[1.805386] (-) TimerEvent: {}
+[1.846584] (camera_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.905583] (-) TimerEvent: {}
+[2.005952] (-) TimerEvent: {}
+[2.106323] (-) TimerEvent: {}
+[2.206697] (-) TimerEvent: {}
+[2.307073] (-) TimerEvent: {}
+[2.407355] (-) TimerEvent: {}
+[2.418515] (camera_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.507470] (-) TimerEvent: {}
+[2.607875] (-) TimerEvent: {}
+[2.708305] (-) TimerEvent: {}
+[2.808724] (-) TimerEvent: {}
+[2.909114] (-) TimerEvent: {}
+[3.009543] (-) TimerEvent: {}
+[3.109851] (-) TimerEvent: {}
+[3.199386] (camera_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.202224] (camera_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.210005] (-) TimerEvent: {}
+[3.310368] (-) TimerEvent: {}
+[3.394933] (camera_msg) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.410521] (-) TimerEvent: {}
+[3.510916] (-) TimerEvent: {}
+[3.611326] (-) TimerEvent: {}
+[3.711739] (-) TimerEvent: {}
+[3.812138] (-) TimerEvent: {}
+[3.912548] (-) TimerEvent: {}
+[3.967520] (camera_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.010782] (camera_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.012130] (camera_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.012615] (-) TimerEvent: {}
+[4.016524] (camera_msg) StdoutLine: {'line': b'-- Configuring done (4.0s)\n'}
+[4.057924] (camera_msg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.071077] (camera_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/URC_2026/ros2_service/build/camera_msg\n'}
+[4.081421] (camera_msg) CommandEnded: {'returncode': 0}
+[4.082214] (camera_msg) JobProgress: {'identifier': 'camera_msg', 'progress': 'build'}
+[4.083337] (camera_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/URC_2026/ros2_service/build/camera_msg', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/URC_2026/ros2_service/build/camera_msg', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/ubuntu/URC_2026/ros2_service/camera_msg', 'TERM_PROGRAM_VERSION': '1.107.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2059', 'BUNDLED_DEBUGPY_PATH': '/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ubuntu/URC_2026/ros2_service/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2017,unix/ubuntu:/tmp/.ICE-unix/2017', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f2b60183_6b6d_48b2_9e61_9e32c3d92d05', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-4f59eef21ff1b2b8.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/ubuntu/.config/Code/User/workspaceStorage/5c45d6682de2d7ba1841ef9ef5b3d2ad/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-7efe9ee8ee.sock', 'GNOME_TERMINAL_SERVICE': ':1.119', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/URC_2026/ros2_service/install/camera_msg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/URC_2026/ros2_service/build/camera_msg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/URC_2026/ros2_service/install/camera_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.113132] (-) TimerEvent: {}
+[4.150064] (camera_msg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.162501] (camera_msg) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_camera_msg\n'}
+[4.213379] (-) TimerEvent: {}
+[4.313824] (-) TimerEvent: {}
+[4.405312] (camera_msg) StdoutLine: {'line': b'[  2%] Built target camera_msg__rosidl_generator_type_description\n'}
+[4.411879] (camera_msg) StdoutLine: {'line': b'running egg_info\n'}
+[4.412948] (camera_msg) StdoutLine: {'line': b'creating camera_msg.egg-info\n'}
+[4.413906] (-) TimerEvent: {}
+[4.419375] (camera_msg) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.431845] (camera_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.433083] (camera_msg) StdoutLine: {'line': b'writing camera_msg.egg-info/PKG-INFO\n'}
+[4.433405] (camera_msg) StdoutLine: {'line': b'writing dependency_links to camera_msg.egg-info/dependency_links.txt\n'}
+[4.433643] (camera_msg) StdoutLine: {'line': b'writing top-level names to camera_msg.egg-info/top_level.txt\n'}
+[4.433818] (camera_msg) StdoutLine: {'line': b"writing manifest file 'camera_msg.egg-info/SOURCES.txt'\n"}
+[4.493157] (camera_msg) StdoutLine: {'line': b"reading manifest file 'camera_msg.egg-info/SOURCES.txt'\n"}
+[4.493692] (camera_msg) StdoutLine: {'line': b"writing manifest file 'camera_msg.egg-info/SOURCES.txt'\n"}
+[4.514158] (-) TimerEvent: {}
+[4.527040] (camera_msg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_camera_msg_egg\n'}
+[4.614398] (-) TimerEvent: {}
+[4.714830] (-) TimerEvent: {}
+[4.771683] (camera_msg) StdoutLine: {'line': b'[  6%] Built target camera_msg__cpp\n'}
+[4.814982] (-) TimerEvent: {}
+[4.818101] (camera_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/camera_msg__rosidl_generator_c.dir/rosidl_generator_c/camera_msg/msg/detail/camera_info__functions.c.o\x1b[0m\n'}
+[4.820324] (camera_msg) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/camera_msg__rosidl_generator_c.dir/rosidl_generator_c/camera_msg/srv/detail/camera_status__type_support.c.o\x1b[0m\n'}
+[4.820760] (camera_msg) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/camera_msg__rosidl_generator_c.dir/rosidl_generator_c/camera_msg/srv/detail/camera_status__description.c.o\x1b[0m\n'}
+[4.821700] (camera_msg) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/camera_msg__rosidl_generator_c.dir/rosidl_generator_c/camera_msg/msg/detail/camera_info__description.c.o\x1b[0m\n'}
+[4.822080] (camera_msg) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/camera_msg__rosidl_generator_c.dir/rosidl_generator_c/camera_msg/msg/detail/camera_info__type_support.c.o\x1b[0m\n'}
+[4.823588] (camera_msg) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/camera_msg__rosidl_generator_c.dir/rosidl_generator_c/camera_msg/srv/detail/camera_status__functions.c.o\x1b[0m\n'}
+[4.915206] (-) TimerEvent: {}
+[4.918357] (camera_msg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libcamera_msg__rosidl_generator_c.so\x1b[0m\n'}
+[4.973399] (camera_msg) StdoutLine: {'line': b'[ 22%] Built target camera_msg__rosidl_generator_c\n'}
+[4.988597] (camera_msg) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.988910] (camera_msg) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.989998] (camera_msg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.990621] (camera_msg) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.990978] (camera_msg) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.991214] (camera_msg) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.015297] (-) TimerEvent: {}
+[5.115693] (-) TimerEvent: {}
+[5.216008] (-) TimerEvent: {}
+[5.291486] (camera_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/camera_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/camera_msg/srv/camera_status__type_support.cpp.o\x1b[0m\n'}
+[5.294010] (camera_msg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/camera_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/camera_msg/msg/camera_info__type_support.cpp.o\x1b[0m\n'}
+[5.316158] (-) TimerEvent: {}
+[5.328646] (camera_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/camera_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/camera_msg/msg/detail/camera_info__type_support.c.o\x1b[0m\n'}
+[5.329047] (camera_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/camera_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/camera_msg/srv/detail/camera_status__type_support.c.o\x1b[0m\n'}
+[5.365131] (camera_msg) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.374372] (camera_msg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_msg/msg/detail/dds_fastrtps/camera_info__type_support.cpp.o\x1b[0m\n'}
+[5.378535] (camera_msg) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/camera_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_msg/srv/detail/dds_fastrtps/camera_status__type_support.cpp.o\x1b[0m\n'}
+[5.391205] (camera_msg) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/camera_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/camera_msg/srv/detail/camera_status__type_support_c.cpp.o\x1b[0m\n'}
+[5.395356] (camera_msg) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/camera_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/camera_msg/msg/detail/camera_info__type_support_c.cpp.o\x1b[0m\n'}
+[5.396757] (camera_msg) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/camera_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/camera_msg/msg/camera_info__type_support.cpp.o\x1b[0m\n'}
+[5.398876] (camera_msg) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/camera_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/camera_msg/srv/camera_status__type_support.cpp.o\x1b[0m\n'}
+[5.413351] (camera_msg) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking C shared library libcamera_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.416274] (-) TimerEvent: {}
+[5.419500] (camera_msg) StdoutLine: {'line': b'[ 63%] Built target camera_msg__rosidl_typesupport_c\n'}
+[5.453160] (camera_msg) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/camera_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/camera_msg/srv/detail/camera_status__type_support.cpp.o\x1b[0m\n'}
+[5.455034] (camera_msg) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/camera_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/camera_msg/msg/detail/camera_info__type_support.cpp.o\x1b[0m\n'}
+[5.456757] (camera_msg) StdoutLine: {'line': b'[ 68%] Built target camera_msg__rosidl_typesupport_introspection_c\n'}
+[5.516405] (-) TimerEvent: {}
+[5.616781] (-) TimerEvent: {}
+[5.717170] (-) TimerEvent: {}
+[5.817605] (-) TimerEvent: {}
+[5.917968] (-) TimerEvent: {}
+[5.960633] (camera_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.007304] (camera_msg) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.018201] (-) TimerEvent: {}
+[6.061127] (camera_msg) StdoutLine: {'line': b'[ 72%] Built target camera_msg__rosidl_typesupport_introspection_cpp\n'}
+[6.101567] (camera_msg) StdoutLine: {'line': b'[ 72%] Built target camera_msg__rosidl_typesupport_cpp\n'}
+[6.118405] (-) TimerEvent: {}
+[6.190366] (camera_msg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.191853] (camera_msg) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.218597] (-) TimerEvent: {}
+[6.319054] (-) TimerEvent: {}
+[6.334228] (camera_msg) StdoutLine: {'line': b'[ 77%] Built target camera_msg__rosidl_typesupport_fastrtps_c\n'}
+[6.335789] (camera_msg) StdoutLine: {'line': b'[ 77%] Built target camera_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[6.374397] (camera_msg) StdoutLine: {'line': b'[ 77%] Built target camera_msg\n'}
+[6.403312] (camera_msg) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.419292] (-) TimerEvent: {}
+[6.519599] (-) TimerEvent: {}
+[6.620032] (-) TimerEvent: {}
+[6.720456] (-) TimerEvent: {}
+[6.820793] (-) TimerEvent: {}
+[6.845758] (camera_msg) StdoutLine: {'line': b'[ 79%] Built target camera_msg__py\n'}
+[6.879859] (camera_msg) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/camera_msg__rosidl_generator_py.dir/rosidl_generator_py/camera_msg/srv/_camera_status_s.c.o\x1b[0m\n'}
+[6.880210] (camera_msg) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/camera_msg__rosidl_generator_py.dir/rosidl_generator_py/camera_msg/msg/_camera_info_s.c.o\x1b[0m\n'}
+[6.921061] (-) TimerEvent: {}
+[7.021418] (-) TimerEvent: {}
+[7.057437] (camera_msg) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libcamera_msg__rosidl_generator_py.so\x1b[0m\n'}
+[7.113499] (camera_msg) StdoutLine: {'line': b'[ 86%] Built target camera_msg__rosidl_generator_py\n'}
+[7.121589] (-) TimerEvent: {}
+[7.141693] (camera_msg) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/camera_msg_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/camera_msg/_camera_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.142098] (camera_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/camera_msg_s__rosidl_typesupport_c.dir/rosidl_generator_py/camera_msg/_camera_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.142725] (camera_msg) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/camera_msg_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/camera_msg/_camera_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.221827] (-) TimerEvent: {}
+[7.278995] (camera_msg) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/camera_msg/camera_msg_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.279525] (camera_msg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/camera_msg/camera_msg_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.281248] (camera_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/camera_msg/camera_msg_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.318795] (camera_msg) StdoutLine: {'line': b'[100%] Built target camera_msg_s__rosidl_typesupport_c\n'}
+[7.321488] (camera_msg) StdoutLine: {'line': b'[100%] Built target camera_msg_s__rosidl_typesupport_fastrtps_c\n'}
+[7.321890] (-) TimerEvent: {}
+[7.323309] (camera_msg) StdoutLine: {'line': b'[100%] Built target camera_msg_s__rosidl_typesupport_introspection_c\n'}
+[7.340993] (camera_msg) CommandEnded: {'returncode': 0}
+[7.342062] (camera_msg) JobProgress: {'identifier': 'camera_msg', 'progress': 'install'}
+[7.355856] (camera_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/URC_2026/ros2_service/build/camera_msg'], 'cwd': '/home/ubuntu/URC_2026/ros2_service/build/camera_msg', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/ubuntu/URC_2026/ros2_service/camera_msg', 'TERM_PROGRAM_VERSION': '1.107.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2059', 'BUNDLED_DEBUGPY_PATH': '/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ubuntu/URC_2026/ros2_service/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2017,unix/ubuntu:/tmp/.ICE-unix/2017', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f2b60183_6b6d_48b2_9e61_9e32c3d92d05', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-4f59eef21ff1b2b8.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/ubuntu/.config/Code/User/workspaceStorage/5c45d6682de2d7ba1841ef9ef5b3d2ad/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-7efe9ee8ee.sock', 'GNOME_TERMINAL_SERVICE': ':1.119', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/URC_2026/ros2_service/install/camera_msg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/URC_2026/ros2_service/build/camera_msg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/URC_2026/ros2_service/install/camera_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.369542] (camera_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.369981] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/ament_index/resource_index/rosidl_interfaces/camera_msg\n'}
+[7.370235] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/msg/CameraInfo.json\n'}
+[7.370672] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/srv/CameraStatus.json\n'}
+[7.371045] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg\n'}
+[7.371338] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv\n'}
+[7.371568] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail\n'}
+[7.371775] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/camera_status__type_support.h\n'}
+[7.371973] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/camera_status__type_support.c\n'}
+[7.372147] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/camera_status__description.c\n'}
+[7.372343] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/camera_status__struct.h\n'}
+[7.372530] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/camera_status__functions.c\n'}
+[7.372691] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/camera_status__functions.h\n'}
+[7.372900] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/camera_status.h\n'}
+[7.373148] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg\n'}
+[7.373355] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.373540] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail\n'}
+[7.373699] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__description.c\n'}
+[7.373939] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__type_support.c\n'}
+[7.374114] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__type_support.h\n'}
+[7.374345] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__struct.h\n'}
+[7.374518] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__functions.c\n'}
+[7.374690] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__functions.h\n'}
+[7.374837] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/camera_info.h\n'}
+[7.375034] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/environment/library_path.sh\n'}
+[7.375198] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/environment/library_path.dsv\n'}
+[7.375432] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_generator_c.so\n'}
+[7.375654] (camera_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_generator_c.so" to ""\n'}
+[7.375861] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg\n'}
+[7.376099] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv\n'}
+[7.376316] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail\n'}
+[7.376538] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/camera_status__rosidl_typesupport_fastrtps_c.h\n'}
+[7.376765] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg\n'}
+[7.377004] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail\n'}
+[7.377241] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__rosidl_typesupport_fastrtps_c.h\n'}
+[7.377424] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.377584] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[7.377734] (camera_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.378001] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg\n'}
+[7.378214] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv\n'}
+[7.378456] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail\n'}
+[7.378637] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/camera_status__rosidl_typesupport_introspection_c.h\n'}
+[7.378803] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/camera_status__type_support.c\n'}
+[7.378966] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg\n'}
+[7.379206] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail\n'}
+[7.379367] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__type_support.c\n'}
+[7.379587] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__rosidl_typesupport_introspection_c.h\n'}
+[7.379777] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.380062] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_introspection_c.so\n'}
+[7.380354] (camera_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.380600] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_c.so\n'}
+[7.380833] (camera_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_c.so" to ""\n'}
+[7.381094] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg\n'}
+[7.381351] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv\n'}
+[7.381623] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/camera_status.hpp\n'}
+[7.381837] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail\n'}
+[7.382010] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/camera_status__builder.hpp\n'}
+[7.382232] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/camera_status__type_support.hpp\n'}
+[7.382459] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/camera_status__traits.hpp\n'}
+[7.382555] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/camera_status__struct.hpp\n'}
+[7.382641] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg\n'}
+[7.382724] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/camera_info.hpp\n'}
+[7.382801] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail\n'}
+[7.382875] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__traits.hpp\n'}
+[7.382952] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__type_support.hpp\n'}
+[7.383033] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__struct.hpp\n'}
+[7.383110] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__builder.hpp\n'}
+[7.383192] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.383264] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg\n'}
+[7.383339] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv\n'}
+[7.383441] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail\n'}
+[7.383512] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/dds_fastrtps\n'}
+[7.383587] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/camera_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.383663] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg\n'}
+[7.383735] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail\n'}
+[7.383804] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/dds_fastrtps\n'}
+[7.383871] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.383941] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.384010] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.384082] (camera_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.384154] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg\n'}
+[7.384225] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv\n'}
+[7.384293] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail\n'}
+[7.384362] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/camera_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.384430] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/srv/detail/camera_status__type_support.cpp\n'}
+[7.384499] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg\n'}
+[7.384567] (camera_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail\n'}
+[7.384637] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.384705] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/include/camera_msg/camera_msg/msg/detail/camera_info__type_support.cpp\n'}
+[7.384774] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[7.384842] (camera_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.384912] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_cpp.so\n'}
+[7.384978] (camera_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[7.385048] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/environment/pythonpath.sh\n'}
+[7.385111] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/environment/pythonpath.dsv\n'}
+[7.385186] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg-0.0.0-py3.12.egg-info\n'}
+[7.385250] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[7.385315] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[7.385379] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[7.385447] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[7.385514] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg\n'}
+[7.385579] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.385644] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/srv\n'}
+[7.385708] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/srv/_camera_status_s.c\n'}
+[7.385771] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/srv/__init__.py\n'}
+[7.385836] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/srv/_camera_status.py\n'}
+[7.385898] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/_camera_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.385961] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_c.so\n'}
+[7.386023] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/__init__.py\n'}
+[7.386088] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_introspection_c.so\n'}
+[7.386156] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/_camera_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.386230] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/_camera_msg_s.ep.rosidl_typesupport_c.c\n'}
+[7.386298] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/msg\n'}
+[7.386364] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/msg/_camera_info.py\n'}
+[7.386428] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/msg/__init__.py\n'}
+[7.386493] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/msg/_camera_info_s.c\n'}
+[7.422091] (-) TimerEvent: {}
+[7.438901] (camera_msg) StdoutLine: {'line': b"Listing '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg'...\n"}
+[7.439099] (camera_msg) StdoutLine: {'line': b"Compiling '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/__init__.py'...\n"}
+[7.439172] (camera_msg) StdoutLine: {'line': b"Listing '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/msg'...\n"}
+[7.439249] (camera_msg) StdoutLine: {'line': b"Compiling '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/msg/__init__.py'...\n"}
+[7.439313] (camera_msg) StdoutLine: {'line': b"Compiling '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/msg/_camera_info.py'...\n"}
+[7.439377] (camera_msg) StdoutLine: {'line': b"Listing '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/srv'...\n"}
+[7.439445] (camera_msg) StdoutLine: {'line': b"Compiling '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/srv/__init__.py'...\n"}
+[7.439510] (camera_msg) StdoutLine: {'line': b"Compiling '/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/srv/_camera_status.py'...\n"}
+[7.446095] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.446577] (camera_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.446860] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_introspection_c.so\n'}
+[7.447037] (camera_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.447162] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_c.so\n'}
+[7.447323] (camera_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/python3.12/site-packages/camera_msg/camera_msg_s__rosidl_typesupport_c.so" to ""\n'}
+[7.447429] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_generator_py.so\n'}
+[7.447706] (camera_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/URC_2026/ros2_service/install/camera_msg/lib/libcamera_msg__rosidl_generator_py.so" to ""\n'}
+[7.447798] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/msg/CameraInfo.idl\n'}
+[7.447886] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/srv/CameraStatus.idl\n'}
+[7.447976] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/msg/CameraInfo.msg\n'}
+[7.448060] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/srv/CameraStatus.srv\n'}
+[7.448155] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/ament_index/resource_index/package_run_dependencies/camera_msg\n'}
+[7.448325] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/ament_index/resource_index/parent_prefix_path/camera_msg\n'}
+[7.448570] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/environment/ament_prefix_path.sh\n'}
+[7.448873] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/environment/ament_prefix_path.dsv\n'}
+[7.449092] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/environment/path.sh\n'}
+[7.449324] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/environment/path.dsv\n'}
+[7.449453] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/local_setup.bash\n'}
+[7.449524] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/local_setup.sh\n'}
+[7.449607] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/local_setup.zsh\n'}
+[7.449675] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/local_setup.dsv\n'}
+[7.449744] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/package.dsv\n'}
+[7.449812] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/ament_index/resource_index/packages/camera_msg\n'}
+[7.449878] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_generator_cExport.cmake\n'}
+[7.449947] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.450015] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.450104] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.450221] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.450291] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.450374] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msg__rosidl_typesupport_cExport.cmake\n'}
+[7.450442] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.450510] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_generator_cppExport.cmake\n'}
+[7.450595] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.450673] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.450739] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.450803] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.450868] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msg__rosidl_typesupport_cppExport.cmake\n'}
+[7.450933] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.451038] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_generator_pyExport.cmake\n'}
+[7.451104] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/export_camera_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.451188] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[7.451265] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.451329] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.451394] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.451486] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.451553] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.451618] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.451708] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msgConfig.cmake\n'}
+[7.451778] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/cmake/camera_msgConfig-version.cmake\n'}
+[7.451861] (camera_msg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/URC_2026/ros2_service/install/camera_msg/share/camera_msg/package.xml\n'}
+[7.454619] (camera_msg) CommandEnded: {'returncode': 0}
+[7.477388] (camera_msg) JobEnded: {'identifier': 'camera_msg', 'rc': 0}
+[7.478300] (-) EventReactorShutdown: {}

@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000769] (camera_msg) JobQueued: {'identifier': 'camera_msg', 'dependencies': OrderedDict()}
+[0.000863] (camera_msg) JobStarted: {'identifier': 'camera_msg'}
+[0.010239] (camera_msg) JobProgress: {'identifier': 'camera_msg', 'progress': 'cmake'}
+[0.011174] (camera_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/URC_2026/ros2_service/camera_msg', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/URC_2026/ros2_service/install/camera_msg'], 'cwd': '/home/ubuntu/URC_2026/ros2_service/build/camera_msg', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/ubuntu/URC_2026/ros2_service/camera_msg', 'TERM_PROGRAM_VERSION': '1.107.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2059', 'BUNDLED_DEBUGPY_PATH': '/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2017,unix/ubuntu:/tmp/.ICE-unix/2017', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f2b60183_6b6d_48b2_9e61_9e32c3d92d05', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ubuntu/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-4f59eef21ff1b2b8.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/ubuntu/.config/Code/User/workspaceStorage/5c45d6682de2d7ba1841ef9ef5b3d2ad/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-7efe9ee8ee.sock', 'GNOME_TERMINAL_SERVICE': ':1.119', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/URC_2026/ros2_service/build/camera_msg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099993] (-) TimerEvent: {}
+[0.169605] (camera_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.200254] (-) TimerEvent: {}
+[0.297430] (camera_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.300426] (-) TimerEvent: {}
+[0.327974] (camera_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400554] (-) TimerEvent: {}
+[0.460242] (camera_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.473753] (camera_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.474435] (camera_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.475134] (camera_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.490657] (camera_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500650] (-) TimerEvent: {}
+[0.601059] (-) TimerEvent: {}
+[0.627938] (camera_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.642145] (camera_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.642673] (camera_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.643640] (camera_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.650757] (camera_msg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.701280] (-) TimerEvent: {}
+[0.801647] (-) TimerEvent: {}
+[0.888674] (camera_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.901966] (-) TimerEvent: {}
+[1.002493] (-) TimerEvent: {}
+[1.068796] (camera_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.078561] (camera_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.102636] (-) TimerEvent: {}
+[1.162973] (camera_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202853] (-) TimerEvent: {}
+[1.231350] (camera_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.241932] (camera_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.303086] (-) TimerEvent: {}
+[1.403500] (-) TimerEvent: {}
+[1.503793] (-) TimerEvent: {}
+[1.604128] (-) TimerEvent: {}
+[1.704549] (-) TimerEvent: {}
+[1.786840] (camera_msg) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):\n'}
+[1.787511] (camera_msg) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[1.787753] (camera_msg) StderrLine: {'line': b'  camera_msg --arguments-file\n'}
+[1.787848] (camera_msg) StderrLine: {'line': b'  /home/ubuntu/URC_2026/ros2_service/build/camera_msg/rosidl_adapter__arguments__camera_msg.json\n'}
+[1.787919] (camera_msg) StderrLine: {'line': b'  --output-dir\n'}
+[1.787980] (camera_msg) StderrLine: {'line': b'  /home/ubuntu/URC_2026/ros2_service/build/camera_msg/rosidl_adapter/camera_msg\n'}
+[1.788043] (camera_msg) StderrLine: {'line': b'  --output-file\n'}
+[1.788103] (camera_msg) StderrLine: {'line': b'  /home/ubuntu/URC_2026/ros2_service/build/camera_msg/rosidl_adapter/camera_msg.idls)\n'}
+[1.788160] (camera_msg) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.788216] (camera_msg) StderrLine: {'line': b'\n'}
+[1.788276] (camera_msg) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.788334] (camera_msg) StderrLine: {'line': b'\n'}
+[1.788391] (camera_msg) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[1.788463] (camera_msg) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[1.788522] (camera_msg) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.788580] (camera_msg) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.788636] (camera_msg) StderrLine: {'line': b'               ^^^^^^\n'}
+[1.788692] (camera_msg) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.788748] (camera_msg) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.788806] (camera_msg) StderrLine: {'line': b'                     ^^^^^^^^^^^^^^^\n'}
+[1.788859] (camera_msg) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.788914] (camera_msg) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.788966] (camera_msg) StderrLine: {'line': b'             ^^^^^^^^^^^^^^^^^^^\n'}
+[1.789020] (camera_msg) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.789077] (camera_msg) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.789131] (camera_msg) StderrLine: {'line': b'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.789185] (camera_msg) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 545, in parse_message_string\n'}
+[1.789238] (camera_msg) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[1.789290] (camera_msg) StderrLine: {'line': b'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.789344] (camera_msg) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 389, in __init__\n'}
+[1.789398] (camera_msg) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[1.789457] (camera_msg) StderrLine: {'line': b'                       ^^^^^^^^^\n'}
+[1.789523] (camera_msg) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 206, in __init__\n'}
+[1.789580] (camera_msg) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.789637] (camera_msg) StderrLine: {'line': b'\n'}
+[1.789693] (camera_msg) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'camera_msg' is an invalid\n"}
+[1.789752] (camera_msg) StderrLine: {'line': b"  message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[1.789814] (camera_msg) StderrLine: {'line': b'\n'}
+[1.789871] (camera_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.789930] (camera_msg) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)\n'}
+[1.789985] (camera_msg) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[1.790042] (camera_msg) StderrLine: {'line': b'\n'}
+[1.790099] (camera_msg) StderrLine: {'line': b'\x1b[0m\n'}
+[1.790154] (camera_msg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.796903] (camera_msg) CommandEnded: {'returncode': 1}
+[1.804736] (-) TimerEvent: {}
+[1.826120] (camera_msg) JobEnded: {'identifier': 'camera_msg', 'rc': 1}
+[1.837488] (-) EventReactorShutdown: {}
